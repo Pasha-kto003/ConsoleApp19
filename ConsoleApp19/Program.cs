@@ -6,7 +6,7 @@ namespace ConsoleApp19
     {
         static void Main(string[] args)
         {
-            Dog dog = new Dog("Kabosu", new DateTime(2010, 8, 10));
+            Dog dog = new Dog("Kabosu", new DateTime(2010, 8, 10)); // ada
             Console.WriteLine($" Возраст Кабосу: { dog.Age} лет"); //Имя переводим на русский
             ((IWalking)dog).Walk();
 
