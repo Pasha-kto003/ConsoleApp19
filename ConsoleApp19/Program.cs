@@ -6,6 +6,8 @@ namespace ConsoleApp19
     {
         static void Main(string[] args)
         {
+            Dog dog = new Dog("Kabosu", new DateTime(2010, 10, 7)
+            Console.WriteLine($"Возраст  Кабосу : {dog.Age} год");                  
             ((IWalking)dog).Walk();
 
             Butterfly but = new Butterfly("Machaon", new DateTime(2019, 10, 10));
